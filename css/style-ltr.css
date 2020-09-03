@@ -1,0 +1,55 @@
+.upper-bar a.active{border-right: 1px solid #ccced1;border-left:none;}
+.articls .article-title h3,
+.donation-req .donation-req-title h3{margin-left: 6%;}
+.owl-carousel .owl-nav button.owl-next{
+font-size: 65px;
+position: absolute;
+top: -93px;
+right: 15px;
+color: #babbbd;
+}
+.owl-carousel .owl-nav button.owl-prev{
+font-size: 65px;
+position: absolute;
+top: -93px;
+right: -20px;
+color: #babbbd;
+}
+.card i{right: 2px;}
+.articls .article-title h3::after {left: 0;}
+.articls .article-title h3,
+/* .donation-req .donation-req-title h3 {
+margin-left: 13%;
+} */
+.donation-req-title h3::after{width: 225px;}
+.don-req{ border-radius:  100px 0 0 100px ;}
+
+@media screen and (max-width:768px){
+    .don-req{border-radius: 20px;}
+    .app h4,.app p{margin-right: 0;}
+    }
+
+.about-ltr  .about{
+background-image: url('../imgs/about2-ltr.png');
+background-size: cover;
+padding: 50px 0;
+}
+.call-ltr  .call-us{
+background-image:url('../imgs/call-ltr.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+padding: 50px 0;
+} 
+/* **************************Start Donation requst page********************** */
+
+.articls .article-title h3,
+.donation-req-page .donation-req .donation-req-title h3{margin-left: 0;}
+/* **************************End Donation requst page********************** */
+
+.table .col-sm-3, .table .col-sm-9{margin-left: 0;margin-right: 15px;}
+@media screen and (max-width:768px){
+.table .col-sm-3, .table .col-sm-9 {
+    margin-left: 0;
+    margin-right: 0;
+}
+}
